@@ -1,1 +1,5 @@
 ###
+terraform init - inicialisation all heed for work to provider 
+terraform plan - check all file .tf before get to
+terraform apply - make all what  write in file
+terraform destroy - delete all
