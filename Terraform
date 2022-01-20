@@ -3,3 +3,22 @@ terraform init - inicialisation all heed for work to provider
 terraform plan - check all file .tf before get to
 terraform apply - make all what  write in file
 terraform destroy - delete all
+So don`t save access_key and secret_key add them in variable :
+export AWS_ACCESS_KEY=SOFNVJKDFNVJK
+export AWS_SECRET_KEY=EFEWFWFFWEFWF
+now be to work terraform apply don`t add the file.tf data
+export AWS_DEFAULT_REGION=eu-centeral-1
+
+Windows Command Prompt
+
+`set` for one here session 
+`setx` to all the time
+C:\> set AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+C:\> set AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+C:\> set AWS_DEFAULT_REGION=us-west-2
+
+PowerShell
+PS C:\> $Env:AWS_ACCESS_KEY_ID="DFVDFVDFVDVDFV"
+PS C:\> $Env:AWS_SECRET_ACCESS_KEY="FVVFFVVFFVDVDK7MDBGCENG/bPxRfiCYEXAMPLEKEY"
+PS C:\> $Env:AWS_DEFAULT_REGION="us-west-2"
+
