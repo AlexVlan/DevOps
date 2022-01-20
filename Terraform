@@ -22,3 +22,6 @@ PS C:\> $Env:AWS_ACCESS_KEY_ID="DFVDFVDFVDVDFV"
 PS C:\> $Env:AWS_SECRET_ACCESS_KEY="FVVFFVVFFVDVDK7MDBGCENG/bPxRfiCYEXAMPLEKEY"
 PS C:\> $Env:AWS_DEFAULT_REGION="us-west-2"
 
+To find example for all groupe go to google :
+terraform aws security group
+
