@@ -55,4 +55,4 @@ git checkout main #go to back from end version
 git commit --amend #change end commit, name, comment
 
 git reset --hard HEAD~1 #Connect to commit less number ~1 or any number
-
+git reset --soft HEAD~1 #delete all history commit from log. To stay only end file and one commit
