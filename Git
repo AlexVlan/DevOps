@@ -39,6 +39,11 @@ git remote rm origin
 3)change url for clone 
 git remote set-url origin git@gitlab.com:frfrffrfrfrrfrffr.git
 
+#work to with branch 
+git branch            #show branch 
+git branch name       #make branch 
+git checkout name     #get to branche "name"
+git branch -d name    #delete branch
+git checkout -b name  #create and get to branch
 
-
-
+git merge name        #connect to branches in one branche "main"
