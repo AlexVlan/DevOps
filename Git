@@ -21,4 +21,24 @@ git diff --staged
 #ignore file/dir
 make file .gitignore and add to all what need to ignor
 
- 
+#clone the reposotory to you local git
+git clone https://github.com/AlexVlan/postgresql.git #url with github rep
+
+#send all to github
+git push origin
+git push 
+
+#show connect rep
+git remote -v
+#delete remote rep
+git remote rm origin
+
+#Change keys for linux:
+1)ssh-keygen 
+2)copy ~/.ssh k.pem to git(lab/hub) 
+3)change url for clone 
+git remote set-url origin git@gitlab.com:frfrffrfrfrrfrffr.git
+
+
+
+
