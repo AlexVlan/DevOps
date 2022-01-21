@@ -1,0 +1,4 @@
+##make dir db git
+git init
+##check status git 
+git status
