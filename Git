@@ -47,3 +47,12 @@ git branch -d name    #delete branch
 git checkout -b name  #create and get to branch
 
 git merge name        #connect to branches in one branche "main"
+
+#Back to before version
+git checkout "commfvdvsdvvrefvdfv98998vfsdfve" #check commit with number commit #TEMP#
+git checkout main #go to back from end version
+
+git commit --amend #change end commit, name, comment
+
+git reset --hard HEAD~1 #Connect to commit less number ~1 or any number
+
