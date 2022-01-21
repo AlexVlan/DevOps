@@ -2,3 +2,23 @@
 git init
 ##check status git 
 git status
+##git file 
+git add * OR git add file
+##git commit 
+git commit -m "comment"
+
+#the manage version files
+#check history modify 
+git log
+git log -1 #check one end commit
+git log -1 -p #show what the was modify in file
+#how return before version file, if it to change
+git checkout -- file
+
+#chech modify before send 
+git diff --staged
+
+#ignore file/dir
+make file .gitignore and add to all what need to ignor
+
+ 
